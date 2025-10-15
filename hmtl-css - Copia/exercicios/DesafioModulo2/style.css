@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'FONTE';
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format(opentype), url(pacote-projeto-d010/fontes/idroid.otf) format(truetype);
+}
+
+@font-face {
+font-family: 'CORPO';
+    src: url(liberation_sans/LiberationSans-Regular.ttf) format(truetype), url(liberation_sans/LiberationSans-Regular.ttf) format(opentype);
+
+}
+
+body {
+    font-family: 'CORPO';
+    margin: auto;
+    padding: none;
+    background-color: #04d9395e;
+
+    
+}
+
+header {
+    margin: 0%;
+    padding-bottom: 5px;
+    background-image: linear-gradient(#03a63c, #025939);
+
+}
+
+main {
+    margin: auto;
+    margin: 0% 30px;
+    padding: 10px 5px;
+    text-align: center;
+    background-color: white;
+}
+
+nav {
+    padding-top: 10px;
+}
+
+nav > a {
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    box-shadow: 0px 1px 0.5px 0px rgba(0, 0, 0, 0.041);
+    }
+
+a {
+    padding-right: 10px;
+    text-decoration: none;
+    color: #025939;
+    background-color: #02733386;
+    font-weight: bolder;
+    box-shadow: 0px 1px 0.5px 0px rgba(0, 0, 0, 0.041);
+}
+
+#h1principal {
+    margin: 0%;
+    padding: 0%;
+    font: italic normal 3em 'FONTE';
+    text-align: center;
+    color: snow;
+    
+}
+
+.h1destaque {
+    font: normal 2em 'FONTE';
+    text-align: left;
+    color: #025939;
+}
+
+.h1mais {
+    margin: 0%;
+    padding: 1% 2%;
+    border-radius: 5px 5px 0px 0px;
+    text-align: left;
+    font-size: 1em;
+    color: white;
+    background-color: #025939;
+}
+
+.h2principal {
+    font: italic bold 20px 'CORPO';
+    text-align: center;
+    margin: auto;
+    margin: 10px;
+    padding: 10px;
+    color: snow;
+}
+
+.h2destaque {
+    font: italic normal 1.5em 'FONTE';
+    text-align: left;
+    margin: 0px 5px;
+    background-image:linear-gradient(#08f35a6b, #025939);
+    
+}
+
+h2 {
+    
+    font: italic normal 1.5em 'FONTE';
+    text-align: center;
+    
+}
+
+h3 {
+    color: white;
+}
+
+p {
+    font: normal 1em 'CORPO';
+    text-align: center;
+    margin: 2% 10%;
+}
+
+.lista > ul > li {
+    padding: 5px 2px;
+    text-align: left;
+    
+}
+
+.ancora {
+    color: #025939;
+    background-color: #02733386;
+}
+
+.destaque {
+    color: #027333;
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.13);
+}
+
+.ancora {
+    color: #025939;
+    background-color: #02733386;
+}
+
+.videos {
+    margin: 0%;
+    padding: 5% 10%;
+    border-radius: 0%;
+    background-color: #025939;
+}
+
+footer {
+    margin: auto;
+    margin: 0px 10px;
+    border-radius: 5px;
+}
+
+article {
+    text-align: center;
+    margin: auto;
+    margin: 5% 15%;
+    border-radius: 5%;
+    background-color: #04d9395e;
+}
+
+.articlefinal {
+    text-align: center;
+    margin: auto;
+    margin: 5% 1%;
+    border-radius: 5%;
+    background-color: #04d9395e;
+}
+
+aside {
+    margin: 0%;
+    padding: 1%;
+    height: 20px;
+    text-align: center;
+    color: darkred;
+    background-color: black;
+    
+}
