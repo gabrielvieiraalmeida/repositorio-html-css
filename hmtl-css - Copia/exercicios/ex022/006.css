@@ -22,3 +22,11 @@ main {
     border: 1px solid darkblue;
     border-radius: 15px;
 }
+
+h1 { 
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
