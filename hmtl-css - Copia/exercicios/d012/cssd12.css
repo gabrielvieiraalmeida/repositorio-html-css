@@ -21,7 +21,7 @@
 
 
 html, body {
-    min-width: 100vh;
+    min-width: 96vw;
     background-color: darkgray;
     font-family: var(--font-comum);
 }
@@ -66,15 +66,43 @@ section {
     padding-left: 30px;
     padding-bottom: 10vh;
     line-height: 2em;
-    font-size: 3.8vw;
+    font-size: 2.7vw;
     font-family: var(--font-texto);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+section#img01 {
+    background-image: url(../d012/imagens/background001.jpg);
+    background-position: center right;
+}
+
+section#img02 {
+    background-image: url(../d012/imagens/background002.jpg);
+    background-position: center right;
+}
+
+
+section > p {
+    padding-bottom: 2em;
+}
+
+
+section.imagem {
+    background-color: darkgoldenrod;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-shadow: inset 6px 6px 13px 0px black;
 }
 
 
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.363);
+    background-color: rgba(0, 0, 0, 0.493);
+    text-shadow: 3px 2px 5px black;
 }
 
 
@@ -84,14 +112,9 @@ section.normal {
 }
 
 
-section.imagem {
-    background-color: darkgoldenrod;
-    color: white;
-}
-
-
 a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
 }
+
