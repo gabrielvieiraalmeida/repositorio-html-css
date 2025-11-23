@@ -1,9 +1,18 @@
+/*config. para pontuação*/
+
 @charset "UTF-8";
+
+
+/*fontes*/
+
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+/*config. geral*/
 
 
 :root {
@@ -19,6 +28,7 @@
     font-size: 1em;
 }
 
+
 html, body {
     min-width: 96vw;
     background-color: white;
@@ -26,51 +36,36 @@ html, body {
 }
 
 
+/*header*/
+
+
 header {
     background-color: black;
     color: white;
     text-align: center;
     padding-top: 50px;
-    font-family: var(--font-titulo);
 }
 
+
 header > h1 {
+    font-family: var(--font-titulo);
     font-size: 10vw;
 }
 
 header > p {
     padding-bottom: 50px;
-    font-size: 5vw;
+    font-size: 1.3em;
 }
 
 
-footer {
-    padding: 10px;
-    background-color: black;
-    color: red;
-    text-align: center;
-}
-
-
-section {
-    padding-top: 10vw;
-    padding-left: 30px;
-    padding-bottom: 10vh;
-    font-family: var(--font-texto);
-
-    
-}
-
-section > p {
-    font-size: 4vw;
-    line-height: 2em;
-}
+/*link "(a)" + link header*/
 
 
 a {
     text-decoration: none;
     color: white;
 }
+
 
 header a:hover{
     color: red;
@@ -80,6 +75,16 @@ header a:hover{
 
 header a:active {
     color: darkred;
+}
+
+
+/*footer + link footer*/
+
+footer {
+    padding: 15px;
+    background-color: black;
+    color: red;
+    text-align: center;
 }
 
 
@@ -94,14 +99,38 @@ footer a:active {
 }
 
 
+/*section*/
+
+
+section {
+    padding-top: 10vw;
+    padding-left: 30px;
+    font-family: var(--font-texto);
+}
+
+
+section > p {
+    padding-bottom: 10vh;
+    font-size: 4vw;
+    line-height: 2em;
+}
+
+
 section.normal{
 
 }
 
 
+/*section class para imagem*/
+
+
 section.imagem {
     background-color: blueviolet;
     color: white;
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 100px;
  }
 
 
@@ -109,22 +138,18 @@ section.imagem {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.473);
     padding-top: 100px;
-    padding-bottom: 100px;
     padding: 5px;
  }
 
 
+/*imagens*/
+
+
  #img01{
     background-image: url(../d012-refazendo-02/imagens/background001.jpg);
-    background-position: center right;
-    background-size: cover;
-    background-attachment: fixed;
  }
 
 
  #img02{
     background-image: url(../d012-refazendo-02/imagens/background002.jpg);
-    background-position: center right;
-    background-size: cover;
-    background-attachment: fixed;
  }
