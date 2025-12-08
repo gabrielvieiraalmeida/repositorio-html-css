@@ -49,19 +49,19 @@
     <table>
         <thead>
             <tr>
-                <th rowspan="2" class="destaque">Área</th>
-                <th rowspan="2" class="destaque">Disciplina</th>
-                <th colspan="2" class="destaque">Notas</th>
-                <th rowspan="2" class="destaque">Média</th>
+                <th scope="col" rowspan="2" class="destaque">Área</th>
+                <th scope="col" rowspan="2" class="destaque">Disciplina</th>
+                <th scope="colgroup" colspan="2" class="destaque">Notas</th>
+                <th scope="col" rowspan="2" class="destaque">Média</th>
             </tr>
             <tr>
-            <th class="destaque">Nota1</th>
-            <th class="destaque">Nota2</th>
+            <th scope="col" class="destaque">Nota1</th>
+            <th scope="col" class="destaque">Nota2</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th rowspan="4" class="normal">Exatas</th>
+                <th scope="rowgroup" rowspan="4" class="normal">Exatas</th>
                 <td>Matemática</td>
                 <td>0.0</td>
                 <td>0.0</td>
@@ -86,11 +86,11 @@
                 <td>0.0</td>
             </tr>
             <tr>
-                <th colspan="4" class="detalhes">Média de Exatas</th>
+                <th scope="row" colspan="4" class="detalhes">Média de Exatas</th>
                 <th class="destaque">0.0</th>
             </tr>
             <tr>
-                <th rowspan="2" class="normal">Humanas</th>
+                <th scope="rowgroup" rowspan="2" class="normal">Humanas</th>
                 <td>História</td>
                 <td>0.0</td>
                 <td>0.0</td>
@@ -103,7 +103,7 @@
                 <td>0.0</td>
             </tr>
             <tr>
-                <th colspan="4" class="detalhes">Média de Humanas</th>
+                <th scope="row" colspan="4" class="detalhes">Média de Humanas</th>
                 <th class="destaque">0.0</th>
             </tr>
         </tbody>
